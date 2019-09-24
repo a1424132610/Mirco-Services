@@ -28,9 +28,9 @@ public class SpringCloudConfigApplication
 
 
     @RequestMapping("/info")
-    public String getInfo(){
+    public Integer getInfo(){
 
-        return "";
+        return port;
     }
 
 }

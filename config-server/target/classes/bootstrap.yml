@@ -4,8 +4,8 @@ spring:
       server:
         git:
           uri: https://github.com/a1424132610/Mirco-Services.git
-          search-paths: config/config(_)server(_)config
+          search-paths: 'config/{application}-config/'
   application:
     name: config-server
   profiles:
-    active: stable
+    active: dev
