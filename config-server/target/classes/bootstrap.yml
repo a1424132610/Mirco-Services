@@ -3,8 +3,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/a1424132610/config_server.git
-          search-paths: '*{application}*'
+          uri: https://github.com/a1424132610/{application}.git
+          search-paths: 'configs/{profile}'
       label: master
   application:
     name: config-server
