@@ -17,6 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringCloudConfigApplication
 {
+    @Value("${server.port:0}")
+    private Integer port;
+
     public static void main( String[] args )
     {
         SpringApplication.run(SpringCloudConfigApplication.class);
