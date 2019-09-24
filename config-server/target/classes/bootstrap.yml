@@ -4,7 +4,7 @@ spring:
       server:
         git:
           uri: https://github.com/a1424132610/Mirco-Services.git
-          search-paths: config/config-server-config
+          search-paths: config/config(_)server(_)config
   application:
     name: config-server
   profiles:
