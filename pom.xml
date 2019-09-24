@@ -12,6 +12,7 @@
     <module>eruke</module>
     <module>zuul</module>
     <module>config-server</module>
+	  <module>config-client</module>
   </modules>
 
 

@@ -11,4 +11,4 @@ spring:
   profiles:
     active: dev
 server:
-  port: 10000
+  port: 8888
