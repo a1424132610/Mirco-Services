@@ -3,8 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/a1424132610/Mirco-Services.git
-          search-paths: 'config/{application}-config/'
+          uri: https://github.com/a1424132610/config_server.git
+          search-paths: '*{application}*'
+      label: master
   application:
     name: config-server
   profiles:

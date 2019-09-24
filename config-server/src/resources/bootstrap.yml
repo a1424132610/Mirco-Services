@@ -4,7 +4,8 @@ spring:
       server:
         git:
           uri: https://github.com/a1424132610/config_server.git
-          search-paths: '{application}-config'
+          search-paths: ''
+      label: master
   application:
     name: config-server
   profiles:
