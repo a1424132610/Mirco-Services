@@ -8,5 +8,7 @@ spring:
       label: master
   application:
     name: config-server
+  profiles:
+    active: stable
 server:
   port: 8888
