@@ -9,6 +9,6 @@ spring:
   application:
     name: config-server
   profiles:
-    active: dev
+    active: stable
 server:
   port: 8888
