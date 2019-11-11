@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @EnableConfigServer
-@RestController
 public class SpringCloudConfigApplication {
 
     public static void main(String[] args) {
