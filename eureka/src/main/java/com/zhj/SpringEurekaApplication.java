@@ -1,21 +1,19 @@
 package com.zhj;
 
 
-import java.io.*;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * Hello world!
  */
+@SpringBootApplication
+@EnableEurekaServer
 public class SpringEurekaApplication {
 
-    public static void main(String[] args) throws Exception {
-        File file = new File("C:\\Users\\14241\\Desktop\\扩展知识点.txt");
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
-        StringBuffer buffer = new StringBuffer();
-        while (br.ready()) {
-            buffer.append(br.readLine());
-        }
-        System.out.println(buffer.toString());
+    public static void main(String[] args) {
+        SpringApplication.run(SpringEurekaApplication.class,args);
     }
 
 }
